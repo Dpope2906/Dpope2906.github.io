@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to bottom, #000099 0%, #ff99cc 100%);
+}
+h2 {
+  font-size:40px;
+}
+p {
+  font-family:sans-serif;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width:100px;
+  font-size:40px
+}
+th, td {
+  padding: 15px;
+}
+tr:nth-child(even) {
+  background-color:#ffffff;
+}
+tr:nth-child(Odd) {
+  background-color:#b3e0ff;
+}
+tr:hover {background-color:#ff99cc;}
